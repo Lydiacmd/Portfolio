@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="icon" href="asserts/logo.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Arrière-plan avec grille et spots lumineux -->
+    <div class="background">
+        <div class="grid-pattern"></div>
+        <div class="light-spot spot-1"></div>
+        <div class="light-spot spot-2"></div>
+        <div class="light-spot spot-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Portfolio</a>
+            <ul class="nav-menu">
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <h2 class="hero-name" >
+                        <span class="hero-name-placeholder">Lydia Belabbas</span>
+                        <span class="hero-name-typing"></span>
+                    </h2>
+                    <h3 class="subtitle"> > Hello world </Hello></h3>
+                    <h5 class="description">
+                        <p>Etudiante en L3ᵉ Informatique à l’Université Grenoble Alpes.</p>
+                        Mes principaux centres d’intérêt incluent la Cybersécurité, le Développement Web, les Systèmes, les Algorithmes et l’ensemble des technologies qui composent l’écosystème informatique moderne.
+                        Toujours motivée à apprendre et à relever de nouveaux défis.
+                        <p>Je cherche un Stage ou une Alternance afin d’élargir mes compétences, découvrir de nouveaux horizons techniques et contribuer à des projets ambitieux.</p>
+                    </h5>
+                    <div class="hero-buttons">
+                        <a href="assets/cv.pdf" class="btn btn-primary" download>
+                            CV
+                        </a>
+                        <a href="https://github.com/Lydiacmd" target="_blank" class="btn btn-secondary">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/lydia-belabbas-b1aa262aa/" target="_blank" class="btn btn-secondary">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="hero-image">
+                    <div class="image-container">
+                        <img src="asserts/Gemini_Generated_Image_yd2cbjyd2cbjyd2c.png" alt="Photo de profil">
+                        <div class="image-glow"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+
+    <!-- Section Compétences -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Compétences</h2>
+            </div>
+            <div class="skills-grid-logos">
+                <div class="skill-logo-item">
+                    <div class="skill-logo">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3>HTML</h3>
+                </div>
+
+                <div class="skill-logo-item">
+                    <div class="skill-logo">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <h3>CSS</h3>
+                </div>
+
+                <div class="skill-logo-item">
+                    <div class="skill-logo">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <h3>JavaScript</h3>
+                </div>
+
+                <div class="skill-logo-item">
+                    <div class="skill-logo">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <h3>Python</h3>
+                </div>
+
+                <div class="skill-logo-item">
+                    <div class="skill-logo">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <h3>React</h3>
+                </div>
+
+                <div class="skill-logo-item">
+                    <div class="skill-logo">
+                        <i class="fas fa-code"></i> 
+                    </div>
+                    <h3>C</h3>
+                </div>
+
+               <div class="skill-logo-item">
+                    <div class="skill-logo">
+                        <i class="fas fa-cube"></i> 
+                    </div>
+                    <h3>OCaml</h3>
+                </div>
+
+                <div class="skill-logo-item">
+                    <div class="skill-logo">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <h3>TypeScript</h3>
+                </div>
+
+                <div class="skill-logo-item">
+                    <div class="skill-logo">
+                        <i class="fab fa-git-alt"></i>
+                    </div>
+                    <h3>Git</h3>
+                </div>
+
+                <div class="skill-logo-item">
+                    <div class="skill-logo">
+                        <i class="fab fa-linux"></i>
+                    </div>
+                    <h3>Linux</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Éducation & Expérience -->
+    <section id="education" class="education-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Éducation & Expérience</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item" data-color="purple">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2025 - 2026</span>
+                        <h3>Licence Informatique - L3</h3>
+                        <h4>Université Grenoble Alpes</h4>
+                        <p>Troisième année de Licence Informatique. Approfondissement en algorithmique avancée, automates, langages formels et analyse syntaxique. Spécialisation progressive entre cybersécurité et développement web.</p>
+                        <div class="timeline-skills">
+                            <span>Algorithmique</span>
+                            <span>Automates</span>
+                            <span>Cybersécurité</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-color="blue">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2024 - 2025</span>
+                        <h3>Licence Informatique - L2</h3>
+                        <h4>Université Grenoble Alpes</h4>
+                        <p>Approfondissement en algorithmique, structures de données, logique et modélisation informatique. Théorie des graphes et fondements de la calculabilité.</p>
+                        <div class="timeline-skills">
+                            <span>OCaml</span>
+                            <span>Python</span>
+                            <span>Graphes</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-color="green">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2023 - 2024</span>
+                        <h3>Licence Informatique - L1</h3>
+                        <h4>Université Grenoble Alpes</h4>
+                        <p>Bases en logique, mathématiques appliquées et programmation. Projets pratiques en Python, initiation à l'intelligence artificielle et création d'un jeu graphique.</p>
+                        <div class="timeline-skills">
+                            <span>Python</span>
+                            <span>IA</span>
+                            <span>Logique</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-color="orange">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2022 - 2023</span>
+                        <h3>Cycle Préparatoire</h3>
+                        <h4>ESTIN</h4>
+                        <p>Formation solide en programmation (C, Python, Java), systèmes d'exploitation (Linux, Windows), architecture informatique et Assembleur. Participation à des ateliers techniques (Bytecraft, GDG).</p>
+                        <div class="timeline-skills">
+                            <span>C</span>
+                            <span>Java</span>
+                            <span>Assembleur</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Projets avec Carousel -->
+    <section id="projects" class="projects-section">
+        <div class="container-full">
+            <div class="section-header">
+                <h2>Projets</h2>
+            </div>
+            
+            <div class="projects-carousel-wrapper">
+                <button class="carousel-nav prev" id="prevBtn">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                
+                <div class="projects-carousel" id="projectsCarousel">
+                    <!-- Projet 1: ICS Manager -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="asserts/videos/interpret/photo_interp.png" alt="ICS Manager">
+                            <div class="project-overlay">
+                                <div class="project-buttons">
+                                    <a href="https://github.com/Lydiacmd/Interpr-teur_iCalendar_-ICS-Manager-C-" target="_blank" class="project-btn btn-code">
+                                        <i class="fab fa-github"></i>
+                                        <span>Voir le code</span>
+                                    </a>
+                                    <button class="project-btn btn-demo" data-video="asserts/videos/interpret/DEMO.mp4">
+                                        <i class="fas fa-play-circle"></i>
+                                        <span>Démo</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>ICS Manager - Interpréteur iCalendar</h3>
+                            <p>Gestionnaire de calendrier iCalendar avec analyse syntaxique et manipulation d'événements en C.</p>
+                            <div class="project-tags">
+                                <span>C</span>
+                                <span>Parsing</span>
+                                <span>iCalendar</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Projet 2 : tour d'hanoi -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="asserts/tour_hanoi/tour_hanoi.png" alt="Tour Hanoi">
+                            <div class="project-overlay">
+                                <div class="project-buttons">
+                                    <a href="https://github.com/Lydiacmd/Tour_Hanoi" target="_blank" class="project-btn btn-code">
+                                        <i class="fab fa-github"></i>
+                                        <span>Voir le code</span>
+                                    </a>
+                                    <button class="project-btn btn-demo" data-video="asserts/tour_hanoi/DEMO_tour_hanoi.mp4">
+                                        <i class="fas fa-play-circle"></i>
+                                        <span>Démo</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Jeu des Tours de Hanoï</h3>
+                            <p>Jeu de réflexion en Python basé sur la récursivité, avec interface graphique et système de scores.</p>
+                            <div class="project-tags">
+                                <span>Python</span>
+                                <span>Tkinter</span>
+                                <span>Récursivité</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Projet 3 : Light UP -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="asserts/light_up_stat/lightup.png" alt="Projet 3 : light_up_stat">
+                            <div class="project-overlay">
+                                <div class="project-buttons">
+                                    <a href="https://github.com/votre-profil/projet3" target="_blank" class="project-btn btn-code">
+                                        <i class="fab fa-github"></i>
+                                        <span>Voir le code</span>
+                                    </a>
+                                    <button class="project-btn btn-demo" data-video="asserts/light_up_stat/DEMO_lightup.mp4">
+                                        <i class="fas fa-play-circle"></i>
+                                        <span>Démo</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Light Up Solver</h3>
+                            <p>Résolveur automatique du puzzle Light Up utilisant un solveur SAT. Génération de grilles, résolution et interface graphique.</p>
+                            <div class="project-tags">
+                                <span>Python</span>
+                                <span>SAT Solver</span>
+                                <span>CNF / DIMACS</span>
+                                <span>Algorithmique</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Projet 4 : Classification (into ai)-->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="asserts/Reconnaiseur_ai/AI.png" alt="Projet 4">
+                            <div class="project-overlay">
+                                <div class="project-buttons">
+                                    <a href="https://github.com/Lydiacmd/Digit_Classification_Introduction_Ai/tree/main" target="_blank" class="project-btn btn-code">
+                                        <i class="fab fa-github"></i>
+                                        <span>Voir le code</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Classification Digit– Intro au Machine Learning</h3>
+                            <p>Reconnaissance de chiffres manuscrits à partir d'images scannées, avec prétraitement, descripteurs HOG et modèles SVM/MLP entraînés sur MNIST.</p>
+                            <div class="project-tags">
+                                <span>Python</span>
+                                <span>Scikit-learn</span>
+                                <span>HOG</span>
+                                <span>MNIST</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Projet 5 : dames chinoise -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="asserts/Dame_chinoise/dame_chinoise.png" alt="Projet 5">
+                            <div class="project-overlay">
+                                <div class="project-buttons">
+                                    <a href="https://github.com/Lydiacmd/JEU_Dames-Chinoises-ocaml" target="_blank" class="project-btn btn-code">
+                                        <i class="fab fa-github"></i>
+                                        <span>Voir le code</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Dames Chinoises en OCaml</h3>
+                            <p>Implémentation du jeu des Dames Chinoises (Chinese Checkers) en OCaml. Le jeu se déroule sur un plateau hexagonal en forme d'étoile où les joueurs déplacent leurs pions en effectuant des sauts simples ou multiples pour atteindre le camp adverse.</p>
+                            <div class="project-tags">
+                                <span>OCaml</span>
+                                <span>Algorithmique</span>
+                                <span>Récursivité</span>
+                                <span>Jeu</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <button class="carousel-nav next" id="nextBtn">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+
+            <div class="carousel-indicators" id="indicators"></div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact</h2>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Email</h4>
+                            <a href="mailto:Lydiabelab05baspro@gmail.com">Lydiabelab05baspro@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Localisation</h4>
+                            <p>Grenoble, France</p>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm" action="https://formspree.io/f/xrbrolep" method="POST">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Nom" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i>
+                        Envoyer
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Portfolio Lydia. Tous droits réservés.</p>
+                <div class="footer-socials">
+                    <a href="https://github.com/Lydiacmd" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/lydia-belabbas-b1aa262aa/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:Lydiabelab05baspro@gmail.com">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal Vidéo -->
+    <div id="videoModal" class="video-modal">
+        <div class="video-modal-content">
+            <button class="video-modal-close">&times;</button>
+            <video id="demoVideo" controls>
+                <source src="" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
