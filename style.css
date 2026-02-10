@@ -1013,6 +1013,22 @@ section {
     border-radius: 12px;
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.8);
 }
+/* ===== MODAL VIDÉO : MODE LOCKBOX ===== */
+.video-modal.lockbox .video-modal-content{
+  width: min(900px, 92vw);     
+  aspect-ratio: 9 / 16;       
+  background: #000;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.video-modal.lockbox video{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;         
+  display: block;
+}
+
 
 /* ===== CONTACT ===== */
 .contact-grid {
